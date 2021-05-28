@@ -1,0 +1,257 @@
+[
+    {
+      "category": "Table Features",
+      "subcategory": "Parent Column Filter",
+      "title": "Parent Column Filters",
+      "description": "Table is filtered at the parent level avoiding loss of sort state on rerender",
+      "path": "Table/ParentFilterCol"
+    },
+    {
+      "category": "Table Features",
+      "subcategory": "Column Filter",
+      "title": "Column Filters",
+      "description": "Table Header contains filters for each column",
+      "path": "Table/ColumnFilters"
+    },
+    {
+      "category": "Table Features",
+      "subcategory": "No Header",
+      "title": "No Header",
+      "description": "Table with no header",
+      "path": "Table/NoHeader"
+    },
+    {
+      "category": "Table Features",
+      "subcategory": "Table",
+      "title": "Checkbox",
+      "description": "Basic table with checkboxes and callback when the checkbox is selected",
+      "path": "Table/Checkbox"
+    },
+    {
+      "category": "Table Features",
+      "subcategory": "Parent Table Sort",
+      "title": "Parent Sort Column",
+      "description": "Table is sorted at the parent level avoiding loss of sort state on rerender",
+      "path": "Table/ParentSortCol"
+    },
+
+
+    {
+      "category": "Table",
+      "subcategory": "Basic Table",
+      "title": "Simple Table",
+      "path": "Table/SimpleTable",
+      "indev": true
+    },
+
+    {
+      "category": "Table Customization",
+      "subcategory": "Custom CSS",
+      "title": "Table Format",
+      "description": "Apply custom formatting to the table CSS",
+      "path": "Table/TableFormat"
+    },
+    {
+      "category": "Table Customization",
+      "subcategory": "Alternate Row Color",
+      "title": "Table Style",
+      "description": "Alternate the color of each row for visibility",
+      "path": "Table/AlternatingStyle"
+    },
+
+
+    {
+      "category": "Table (Advanced)",
+      "subcategory": "Accordian Table",
+      "title": "Accordian Table",
+      "description": "Accordian tables can be enabled after performing a groupby. This creates a dropdown row displaying the split",
+      "path": "Table/Table/AccordianTable"
+    },
+
+    {
+      "category": "Table (Advanced)",
+      "subcategory": "Lazy Loading",
+      "title": "Lazy Loading Table",
+      "path": "Table/LazyLoading"
+    },
+
+    {
+      "category": "Table (Advanced)",
+      "subcategory": "Multi Rows",
+      "title": "Multiple Rows",
+      "description": "table is rendered putting data on multiple rows",
+      "path": "Table/MultirowTable"
+    },
+    {
+      "category": "Table (Advanced)",
+      "subcategory": "Multi Rows and Columns",
+      "title": "Multiple Rows and Columns",
+      "description": "table with multiple rows and columns spanning all rows",
+      "path": "Table/MultiRowCol"
+    },
+
+
+
+
+
+
+        {
+            "category": "Bar Chart",
+            "subcategory": "Bar",
+            "title": "Simple Bar Chart",
+            "path": "Echarts/Bar/Simple"
+        },
+        {
+            "category": "Bar Chart",
+            "subcategory": "Stacked",
+            "title": "Stacked Bar Chart",
+            "path": "Echarts/Bar/Stacked"
+        },
+        {
+            "category": "Grid Chart",
+            "subcategory": "Simple grid",
+            "title": "Simple example taken from echarts",
+            "path": "Echarts/RectGrid/Simple"
+        },
+        {
+            "category": "Grid Chart",
+            "subcategory": "Customizable grid",
+            "title": "Customize the Rectangular grid",
+            "path": "Echarts/RectGrid/Custom"
+        },
+        {
+            "category": "Line",
+            "subcategory": "Line",
+            "title": "Line Chart",
+            "path": "Echarts/Line/Simple"
+        },
+        {
+            "category": "Line",
+            "subcategory": "Error Bars",
+            "title": "ErrorBars",
+            "path": "Echarts/Line/ErrorBars"
+        },
+        {
+            "category": "Custom Plots",
+            "subcategory": "Highlighting",
+            "title": "Highlight Specific entry with a Polygon",
+            "path": "Echarts/Line/Highlight"
+        },
+        {
+            "category": "Custom Plots",
+            "subcategory": "Custom",
+            "title": "Line Chart using echarts options",
+            "path": "Echarts/Custom/Simple"
+        },
+        {
+            "category": "Custom Plots",
+            "subcategory": "Custom",
+            "title": "Echarts Style",
+            "description": "change the plot style such as height",
+            "path": "Echarts/Custom/Style"
+        },
+        {
+            "category": "Custom Plots",
+            "subcategory": "Custom",
+            "title": "Scatter Chart with a horizontal Line",
+            "path": "Echarts/Custom/HorizontalLine"
+        },
+        {
+            "category": "Scatter",
+            "subcategory": "Scatter",
+            "title": "Simple Scatter Plot",
+            "path": "Echarts/Scatter/Simple"
+        },
+        {
+            "category": "Scatter",
+            "subcategory": "Multi Colored",
+            "title": "Multicolored Scatter Plot",
+            "description": "Multicolored Scatter plot based on the unique values of a given column",
+            "path": "Echarts/Scatter/ColorBy"
+        },
+        {
+            "category": "Scatter",
+            "subcategory": "Labeled",
+            "title": "Labeled Scatter Plot",
+            "description": "label samples and create a multicolored scatter plot. Blue and Red designated for pass/fail",
+            "path": "Echarts/Scatter/Labeled"
+        },
+        {
+            "category": "Boxplot",
+            "subcategory": "Simple Boxplot",
+            "title": "Simple Boxplot",
+            "path": "Echarts/Boxplot/Simple"
+        },
+        {
+            "category": "Boxplot",
+            "subcategory": "Boxplot",
+            "title": "Boxplot with All Samples Shown",
+            "description": "overlay all samples on top of the boxplot",
+            "path": "Echarts/Boxplot/AllSamples"
+        },
+        {
+            "category": "Boxplot",
+            "subcategory": "Boxplot",
+            "title": "Boxplot with All Samples Grouped",
+            "description": "overlay all samples on top of the boxplot, where the samples are colored by group",
+            "path": "Echarts/Boxplot/AllSamplesGrouped"
+        },
+        {
+            "category": "Boxplot",
+            "subcategory": "Boxplot",
+            "title": "Boxplot with Filtered Overlay",
+            "description": "Boxplot with an overlay of selected samples",
+            "path": "Echarts/Boxplot/FilteredOverlay"
+        },
+        {
+            "category": "Heatmap",
+            "subcategory": "Heatmap",
+            "title": "Simple Heatmap",
+            "path": "Echarts/Heatmap/Simple"
+        },
+        {
+            "category": "Pie Chart",
+            "subcategory": "Pie",
+            "title": "Simple Pie",
+            "description": "Basic pie chart driver",
+            "path": "Echarts/Pie/Simple"
+        },
+        {
+            "category": "Pie Chart",
+            "subcategory": "Pie",
+            "title": "Pie From Series",
+            "description": "converts a jsonArray Series into a Pie Chart",
+            "path": "Echarts/Pie/FromSeries"
+        },
+        {
+            "category": "Interactive",
+            "subcategory": "Selection",
+            "title": "Selection",
+            "description": "drag selection enabled on scatter plots",
+            "path": "Echarts/Custom/Selection"
+        },
+        {
+            "category": "Interactive",
+            "subcategory": "Zoom",
+            "title": "Zoom",
+            "description": "Zoom with the scrool wheel",
+            "path": "Echarts/Custom/Zoom"
+        },
+        {
+            "category": "Interactive",
+            "subcategory": "Zoom",
+            "title": "Zoom Vertical",
+            "description": "Zoom with the scrool wheel and sliders on a single axis",
+            "path": "Echarts/Custom/ZoomVertical"
+        },
+        {
+            "category": "Interactive",
+            "subcategory": "Zoom",
+            "title": "Zoom Slider",
+            "description": "Zoom with the scroll wheel and sliders",
+            "path": "Echarts/Custom/ZoomSlider"
+        }
+
+
+
+]
