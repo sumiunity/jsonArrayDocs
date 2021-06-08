@@ -40,8 +40,7 @@
       "category": "Table",
       "subcategory": "Basic Table",
       "title": "Simple Table",
-      "path": "Table/SimpleTable",
-      "indev": true
+      "path": "Table/SimpleTable"
     },
 
     {
@@ -250,6 +249,29 @@
             "title": "Zoom Slider",
             "description": "Zoom with the scroll wheel and sliders",
             "path": "Echarts/Custom/ZoomSlider"
+        },
+        {
+            "category": "Plot Features",
+            "subcategory": "Tool Tips",
+            "title": "Tool Tip example",
+            "description": "Tool tips are provided as a parameter",
+            "path": "Echarts/Tooltips/tooltips"
+        },
+
+        {
+            "category": "Plot Format",
+            "subcategory": "Legend",
+            "title": "Legend",
+            "description": "Add a legend to the plot",
+            "path": "Echarts/Format/Legend"
+        },
+        {
+            "category": "Plot Format",
+            "subcategory": "Toolbox",
+            "title": "Toolbox",
+            "description": "Add a toolbox to enable user interaction",
+            "path": "Echarts/Format/ToolboxExample",
+            "indev": true
         }
 
 
