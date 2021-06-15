@@ -229,6 +229,15 @@
             "description": "drag selection enabled on scatter plots",
             "path": "Echarts/Custom/Selection"
         },
+
+        {
+            "category": "Interactive",
+            "subcategory": "onClick",
+            "title": "onClick",
+            "description": "onClick enabled on scatter plots",
+            "path": "Echarts/Custom/onClick"
+        },
+
         {
             "category": "Interactive",
             "subcategory": "Zoom",
