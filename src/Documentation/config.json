@@ -107,6 +107,13 @@
             "path": "Echarts/Bar/Stacked"
         },
         {
+            "category": "Bar Chart",
+            "subcategory": "Pareto",
+            "title": "Pareto Chart",
+            "path": "Echarts/Bar/Pareto",
+            "indev": true
+        },
+        {
             "category": "Grid Chart",
             "subcategory": "Simple grid",
             "title": "Simple example taken from echarts",
