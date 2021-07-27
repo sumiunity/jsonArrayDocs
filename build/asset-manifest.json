@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "./static/js/main.b03c51c2.chunk.js",
-    "main.js.map": "./static/js/main.b03c51c2.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6a5e0bf1.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6a5e0bf1.js.map",
-    "static/css/2.1ada0aa9.chunk.css": "./static/css/2.1ada0aa9.chunk.css",
-    "static/js/2.fdff81e8.chunk.js": "./static/js/2.fdff81e8.chunk.js",
-    "static/js/2.fdff81e8.chunk.js.map": "./static/js/2.fdff81e8.chunk.js.map",
+    "main.js": "./static/js/main.60eeb06f.chunk.js",
+    "main.js.map": "./static/js/main.60eeb06f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3af3e579.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3af3e579.js.map",
+    "static/css/2.f48bf87c.chunk.css": "./static/css/2.f48bf87c.chunk.css",
+    "static/js/2.291f1f94.chunk.js": "./static/js/2.291f1f94.chunk.js",
+    "static/js/2.291f1f94.chunk.js.map": "./static/js/2.291f1f94.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.1ada0aa9.chunk.css.map": "./static/css/2.1ada0aa9.chunk.css.map",
-    "static/js/2.fdff81e8.chunk.js.LICENSE.txt": "./static/js/2.fdff81e8.chunk.js.LICENSE.txt",
+    "static/css/2.f48bf87c.chunk.css.map": "./static/css/2.f48bf87c.chunk.css.map",
+    "static/js/2.291f1f94.chunk.js.LICENSE.txt": "./static/js/2.291f1f94.chunk.js.LICENSE.txt",
     "static/media/AccordianTable.doc": "./static/media/AccordianTable.c6c79840.doc",
     "static/media/AllSamples.doc": "./static/media/AllSamples.d2ca8046.doc",
     "static/media/AllSamplesGrouped.doc": "./static/media/AllSamplesGrouped.e14389c9.doc",
@@ -32,6 +32,7 @@
     "static/media/NoHeader.doc": "./static/media/NoHeader.7670f9ba.doc",
     "static/media/ParentFilterCol.doc": "./static/media/ParentFilterCol.52b459ec.doc",
     "static/media/ParentSortCol.doc": "./static/media/ParentSortCol.5d0b7307.doc",
+    "static/media/Pareto.doc": "./static/media/Pareto.3f381510.doc",
     "static/media/Selection.doc": "./static/media/Selection.ca287540.doc",
     "static/media/SelectionScatter.doc": "./static/media/SelectionScatter.98d21352.doc",
     "static/media/Simple.doc": "./static/media/Simple.ed38691e.doc",
@@ -45,12 +46,13 @@
     "static/media/ZoomVertical.doc": "./static/media/ZoomVertical.68b7fd34.doc",
     "static/media/semantic.min.css": "./static/media/outline-icons.ddae9b1b.woff",
     "static/media/install.py": "./static/media/install.727080ea.py",
+    "static/media/onClick.doc": "./static/media/onClick.c318e611.doc",
     "static/media/tooltips.doc": "./static/media/tooltips.6c82abc1.doc"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a5e0bf1.js",
-    "static/css/2.1ada0aa9.chunk.css",
-    "static/js/2.fdff81e8.chunk.js",
-    "static/js/main.b03c51c2.chunk.js"
+    "static/js/runtime-main.3af3e579.js",
+    "static/css/2.f48bf87c.chunk.css",
+    "static/js/2.291f1f94.chunk.js",
+    "static/js/main.60eeb06f.chunk.js"
   ]
 }
