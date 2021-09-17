@@ -1,0 +1,10 @@
+[
+    {
+      "category": "Accordian",
+      "subcategory": "Accordian Table",
+      "title": "Accordian Table",
+      "description": "Accordian tables can be enabled after performing a groupby. This creates a dropdown row displaying the split",
+      "path": "Table/Accordian/AccordianTable",
+      "indev": true
+    }
+]

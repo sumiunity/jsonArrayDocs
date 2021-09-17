@@ -1,0 +1,22 @@
+[
+    {
+        "category": "Scatter",
+        "subcategory": "Scatter",
+        "title": "Simple Scatter Plot",
+        "path": "Echarts/Scatter/Simple"
+    },
+    {
+        "category": "Scatter",
+        "subcategory": "Multi Colored",
+        "title": "Multicolored Scatter Plot",
+        "description": "Multicolored Scatter plot based on the unique values of a given column",
+        "path": "Echarts/Scatter/ColorBy"
+    },
+    {
+        "category": "Scatter",
+        "subcategory": "Labeled",
+        "title": "Labeled Scatter Plot",
+        "description": "label samples and create a multicolored scatter plot. Blue and Red designated for pass/fail",
+        "path": "Echarts/Scatter/Labeled"
+    }
+]

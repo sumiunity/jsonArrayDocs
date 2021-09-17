@@ -1,0 +1,23 @@
+[
+    {
+      "category": "Style",
+      "subcategory": "Basic Table",
+      "title": "Simple Table",
+      "path": "Table/Style/SimpleTable"
+    },
+
+    {
+      "category": "Style",
+      "subcategory": "Custom CSS",
+      "title": "Table Format",
+      "description": "Apply custom formatting to the table CSS",
+      "path": "Table/Style/TableFormat"
+    },
+    {
+      "category": "Style",
+      "subcategory": "Alternate Row Color",
+      "title": "Table Style",
+      "description": "Alternate the color of each row for visibility",
+      "path": "Table/Style/AlternatingStyle"
+    }
+]

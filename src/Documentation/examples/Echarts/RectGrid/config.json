@@ -1,0 +1,14 @@
+[
+    {
+        "category": "Grid Chart",
+        "subcategory": "Simple grid",
+        "title": "Simple example taken from echarts",
+        "path": "Echarts/RectGrid/Simple"
+    },
+    {
+        "category": "Grid Chart",
+        "subcategory": "Customizable grid",
+        "title": "Customize the Rectangular grid",
+        "path": "Echarts/RectGrid/Custom"
+    }
+]

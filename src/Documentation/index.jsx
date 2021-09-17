@@ -12,12 +12,12 @@ single component and avoids multiple pages/routes
 
 import React, {useState} from 'react';
 
-import {Grid, Segment} from 'semantic-ui-react'
+import {Grid, Segment, Menu, Button, Container} from 'semantic-ui-react'
 
 import jsonArray from './components/jsonArray'
 import Example from './components/Example'
 import Sidebar from './components/Sidebar'
-
+import getConfig from './config'
 
 // wraps the fixed code documentation framework in the
 // grid structure to provide one line per example
@@ -25,11 +25,13 @@ export default function Examples( props ){
 
   const [category, setCategory] = useState()
   const [subcategory, setSubCategory] = useState()
+  const [docType, setDocType] = useState('table')
 
   var config = props.config
   if( config === undefined ){
-    config = require('./config.json' )
+    config = getConfig(docType)
   }
+
 
   config = new jsonArray(config)
 
@@ -51,29 +53,34 @@ export default function Examples( props ){
 
   return (
 
-    <Segment style={{margin:'0 20px 0 20px'}}>
-      <Grid columns={2}>
-         <Grid.Column
-           style={{maxWidth:'250px'}}>
-          <Sidebar
-            config={config}
-            category={category}
-            setCategory={setCategory}
-            setSubCategory={setSubCategory}
-            />
-         </Grid.Column>
+    <Segment inverted style={{height: '100vh'}}>
+      <Navbar callback={setDocType} docType={docType}/>
 
-        <Grid.Column stretched style={{width:'calc(100% - 250px)'}}>
-           <PageContent
-             {...props}
-             category={category}
-             subcategory={subcategory}
-             config={config}
-             />
-         </Grid.Column>
-       </Grid>
+      <Segment style={{margin:'0 20px 0 20px'}}>
 
-     </Segment>
+        <Grid columns={2}>
+           <Grid.Column
+             style={{maxWidth:'250px'}}>
+            <Sidebar
+              config={config}
+              category={category}
+              setCategory={setCategory}
+              setSubCategory={setSubCategory}
+              />
+           </Grid.Column>
+
+          <Grid.Column stretched style={{width:'calc(100% - 250px)'}}>
+             <PageContent
+               {...props}
+               category={category}
+               subcategory={subcategory}
+               config={config}
+               />
+           </Grid.Column>
+         </Grid>
+
+       </Segment>
+   </Segment>
   )
 }
 
@@ -117,4 +124,48 @@ function PageContent( props ){
       {exampleComponents}
     </div>
   )
+}
+
+
+
+/* Heads up!
+ * Neither Semantic UI nor Semantic UI React offer a responsive navbar, however, it can be implemented easily.
+ * It can be more complicated, but you can create really flexible markup.
+ */
+function Navbar(props){
+
+  var callback = (value) => console.log( 'selected', value)
+  if( props.callback !== undefined ) callback = (value) => props.callback(value)
+
+  return (
+
+      <Menu size='large' inverted>
+        <Container>
+          <Menu.Item as='a'
+            active={props.docType==='chart'}
+            onClick = {() => {
+              callback('chart')
+            }}>
+            Charts
+          </Menu.Item>
+          <Menu.Item as='a'
+            active={props.docType==='table'}
+            onClick = {(value) => {
+              callback('table')
+            }}>
+            Table
+          </Menu.Item>
+        </Container>
+      </Menu>
+
+  )
+  // <Menu.Item position='right'>
+  //   <Button as='a' inverted={!fixed}>
+  //     Log in
+  //   </Button>
+  //   <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
+  //     Sign Up
+  //   </Button>
+  // </Menu.Item>
+
 }

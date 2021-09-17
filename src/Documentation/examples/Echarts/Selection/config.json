@@ -1,0 +1,9 @@
+[
+    {
+        "category": "Interactive",
+        "subcategory": "Selection",
+        "title": "Selection",
+        "description": "drag selection enabled on scatter plots",
+        "path": "Echarts/Custom/Selection"
+    }
+]

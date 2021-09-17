@@ -1,0 +1,9 @@
+[
+    {
+      "category": "Special Content",
+      "subcategory": "Checkbox",
+      "title": "Checkbox",
+      "description": "Basic table with checkboxes and callback when the checkbox is selected",
+      "path": "Table/SpecialContent/Checkbox"
+    }
+]

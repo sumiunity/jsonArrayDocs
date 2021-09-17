@@ -1,0 +1,17 @@
+[
+    {
+        "category": "Plot Format",
+        "subcategory": "Legend",
+        "title": "Legend",
+        "description": "Add a legend to the plot",
+        "path": "Echarts/Format/Legend"
+    },
+    {
+        "category": "Plot Format",
+        "subcategory": "Toolbox",
+        "title": "Toolbox",
+        "description": "Add a toolbox to enable user interaction",
+        "path": "Echarts/Format/ToolboxExample",
+        "indev": true
+    }
+]

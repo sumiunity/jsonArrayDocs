@@ -1,0 +1,9 @@
+[
+    {
+      "category": "Filtering",
+      "subcategory": "Column Filter",
+      "title": "Column Filters",
+      "description": "Table Header contains filters for each column",
+      "path": "Table/Filtering/ColumnFilters"
+    }
+]

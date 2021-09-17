@@ -1,0 +1,29 @@
+[
+    {
+        "category": "Boxplot",
+        "subcategory": "Simple Boxplot",
+        "title": "Simple Boxplot",
+        "path": "Echarts/Boxplot/Simple"
+    },
+    {
+        "category": "Boxplot",
+        "subcategory": "Boxplot",
+        "title": "Boxplot with All Samples Shown",
+        "description": "overlay all samples on top of the boxplot",
+        "path": "Echarts/Boxplot/AllSamples"
+    },
+    {
+        "category": "Boxplot",
+        "subcategory": "Boxplot",
+        "title": "Boxplot with All Samples Grouped",
+        "description": "overlay all samples on top of the boxplot, where the samples are colored by group",
+        "path": "Echarts/Boxplot/AllSamplesGrouped"
+    },
+    {
+        "category": "Boxplot",
+        "subcategory": "Boxplot",
+        "title": "Boxplot with Filtered Overlay",
+        "description": "Boxplot with an overlay of selected samples",
+        "path": "Echarts/Boxplot/FilteredOverlay"
+    }
+]

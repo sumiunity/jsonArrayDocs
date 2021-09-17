@@ -1,0 +1,21 @@
+[
+    {
+        "category": "Bar Chart",
+        "subcategory": "Bar",
+        "title": "Simple Bar Chart",
+        "path": "Echarts/Bar/Simple"
+    },
+    {
+        "category": "Bar Chart",
+        "subcategory": "Stacked",
+        "title": "Stacked Bar Chart",
+        "path": "Echarts/Bar/Stacked"
+    },
+    {
+        "category": "Bar Chart",
+        "subcategory": "Pareto",
+        "title": "Pareto Chart",
+        "path": "Echarts/Bar/Pareto",
+        "indev": false
+    }  
+]

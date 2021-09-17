@@ -1,0 +1,9 @@
+[
+    {
+        "category": "Area Chart",
+        "subcategory": "Simple",
+        "title": "Simple Area Chart",
+        "path": "Echarts/Area/Simple",
+        "indev": true
+    }
+]

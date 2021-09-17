@@ -1,0 +1,9 @@
+[
+    {
+        "category": "Plot Features",
+        "subcategory": "Tool Tips",
+        "title": "Tool Tip example",
+        "description": "Tool tips are provided as a parameter",
+        "path": "Echarts/Tooltips/tooltips"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+      "category": "Multi Row",
+      "subcategory": "Multi Rows",
+      "title": "Multiple Rows",
+      "description": "table is rendered putting data on multiple rows",
+      "path": "Table/MultiRow/MultirowTable"
+    },
+    {
+      "category": "Multi Row",
+      "subcategory": "Multi Rows and Columns",
+      "title": "Multiple Rows and Columns",
+      "description": "table with multiple rows and columns spanning all rows",
+      "path": "Table/MultiRow/MultiRowCol"
+    }
+]

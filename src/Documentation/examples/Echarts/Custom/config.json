@@ -1,0 +1,62 @@
+[
+    {
+        "category": "Custom Plots",
+        "subcategory": "Custom",
+        "title": "Line Chart using echarts options",
+        "path": "Echarts/Custom/Simple"
+    },
+    {
+        "category": "Custom Plots",
+        "subcategory": "Custom",
+        "title": "Echarts Style",
+        "description": "change the plot style such as height",
+        "path": "Echarts/Custom/Style"
+    },
+    {
+        "category": "Custom Plots",
+        "subcategory": "Custom",
+        "title": "Scatter Chart with a horizontal Line",
+        "path": "Echarts/Custom/HorizontalLine"
+    },
+
+
+
+
+    {
+        "category": "Interactive",
+        "subcategory": "Selection",
+        "title": "Selection",
+        "description": "drag selection enabled on scatter plots",
+        "path": "Echarts/Custom/Selection"
+    },
+
+    {
+        "category": "Interactive",
+        "subcategory": "onClick",
+        "title": "onClick",
+        "description": "onClick enabled on scatter plots",
+        "path": "Echarts/Custom/onClick"
+    },
+
+    {
+        "category": "Interactive",
+        "subcategory": "Zoom",
+        "title": "Zoom",
+        "description": "Zoom with the scrool wheel",
+        "path": "Echarts/Custom/Zoom"
+    },
+    {
+        "category": "Interactive",
+        "subcategory": "Zoom",
+        "title": "Zoom Vertical",
+        "description": "Zoom with the scrool wheel and sliders on a single axis",
+        "path": "Echarts/Custom/ZoomVertical"
+    },
+    {
+        "category": "Interactive",
+        "subcategory": "Zoom",
+        "title": "Zoom Slider",
+        "description": "Zoom with the scroll wheel and sliders",
+        "path": "Echarts/Custom/ZoomSlider"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "category": "Line",
+        "subcategory": "Line",
+        "title": "Line Chart",
+        "path": "Echarts/Line/Simple"
+    },
+    {
+        "category": "Line",
+        "subcategory": "Error Bars",
+        "title": "ErrorBars",
+        "path": "Echarts/Line/ErrorBars"
+    },
+    {
+        "category": "Custom Plots",
+        "subcategory": "Highlighting",
+        "title": "Highlight Specific entry with a Polygon",
+        "path": "Echarts/Line/Highlight"
+    }
+]
