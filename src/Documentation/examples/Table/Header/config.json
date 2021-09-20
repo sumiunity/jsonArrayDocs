@@ -5,5 +5,13 @@
       "title": "No Header",
       "description": "Table with no header",
       "path": "Table/Header/NoHeader"
-    }
+  },
+  {
+    "category": "Header",
+    "subcategory": "Multi Row",
+    "title": "Multi Row",
+    "description": "Table with a Multiple row header",
+    "path": "Table/Header/MultiRow",
+    "indev": true
+  }
 ]

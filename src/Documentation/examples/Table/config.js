@@ -15,8 +15,8 @@ function importConfig( config, path, indev=false){
 
 export var config = []
 
-config = importConfig(config, 'Accordian/config.json', true)
-config = importConfig(config, 'Header/config.json', false)
+config = importConfig(config, 'Accordian/config.json', false)
+config = importConfig(config, 'Header/config.json', true)
 config = importConfig(config, 'LazyLoading/config.json', false)
 config = importConfig(config, 'MultiRow/config.json', false)
 config = importConfig(config, 'Style/config.json', false)
