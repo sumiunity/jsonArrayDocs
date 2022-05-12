@@ -8,6 +8,12 @@ export default function getConfig( docType ){
     case 'table':
       return importConfig(config, 'Table/config.js', true)
 
+    case 'dataframe':
+      return importConfig(config, 'DataFrame/config.js', true)
+
+    case 'series':
+      return importConfig(config, 'Series/config.js', true)
+
     default:
 
       var config = []
@@ -20,7 +26,7 @@ export default function getConfig( docType ){
 function importConfig( config, path, indev=false){
 
   var localConfig = require('./examples/' + path).config
-  console.log()
+
   if( indev === false ){
     for( var i=0; i < localConfig.length; i++ ){
       localConfig[i]['indev'] = false

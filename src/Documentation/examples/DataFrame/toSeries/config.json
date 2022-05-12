@@ -1,0 +1,10 @@
+[
+    {
+      "category": "To Series",
+      "subcategory": "To Series",
+      "title": "To Series",
+      "description": "Converts a single column into a Series Object",
+      "path": "DataFrame/toSeries/toSeries",
+      "indev": true
+    }
+]

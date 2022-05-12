@@ -1,0 +1,10 @@
+[
+    {
+      "category": "Table",
+      "subcategory": "Table",
+      "title": "Table",
+      "description": "Renders the Series as a Table with all Table features",
+      "path": "Series/Table/Table",
+      "indev": true
+  }
+]

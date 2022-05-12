@@ -1,0 +1,10 @@
+[
+    {
+      "category": "Pareto",
+      "subcategory": "crop",
+      "title": "crop",
+      "description": "Crops the pareto by creating an other bucket containin the sum of all samples not included in the summary",
+      "path": "Series/Pareto/crop",
+      "indev": true
+  }
+]

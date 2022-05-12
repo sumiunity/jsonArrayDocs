@@ -1,0 +1,18 @@
+[
+    {
+      "category": "Echarts",
+      "subcategory": "Pie Chart",
+      "title": "Pie Chart",
+      "description": "Renders a Pie Chart using Series Api",
+      "path": "Series/Echarts/Pie",
+      "indev": true
+  },
+  {
+    "category": "Echarts",
+    "subcategory": "Pareto",
+    "title": "Pareto",
+    "description": "Renders a Pareto using Series Api",
+    "path": "Series/Echarts/Pareto",
+    "indev": true
+}
+]

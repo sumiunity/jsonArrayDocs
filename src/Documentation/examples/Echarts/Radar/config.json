@@ -1,0 +1,10 @@
+[
+    {
+        "category": "Radar",
+        "subcategory": "Simple",
+        "title": "Simple Simple Radard",
+        "description": "Basic radar chart driver",
+        "path": "Echarts/Radar/Simple",
+        "indev": true
+    }
+]

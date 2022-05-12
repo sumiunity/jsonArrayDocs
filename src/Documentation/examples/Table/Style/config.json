@@ -5,7 +5,33 @@
       "title": "Simple Table",
       "path": "Table/Style/SimpleTable"
     },
+    {
+      "category": "Style",
+      "subcategory": "Renaming Header Names",
+      "title": "Renaming Header",
+      "path": "Table/Style/RenamingColumns"
+    },
 
+    {
+      "category": "Style",
+      "subcategory": "Hyperlink Cell Type",
+      "title": "Hyperlink Cell Type",
+      "path": "Table/Style/Hyperlinking"
+    },
+
+    {
+      "category": "Style",
+      "subcategory": "Data Driven Coloring",
+      "title": "Data Driven Coloring",
+      "path": "Table/Style/DataDrivenColoring"
+    },
+
+    {
+      "category": "Style",
+      "subcategory": "Custom Cell Coloring",
+      "title": "Custom Cell Coloring",
+      "path": "Table/Style/CustomeCellColoring"
+    },
     {
       "category": "Style",
       "subcategory": "Custom CSS",

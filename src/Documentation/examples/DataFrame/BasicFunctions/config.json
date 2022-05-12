@@ -1,0 +1,50 @@
+[
+    {
+      "category": "Function",
+      "subcategory": "Replace",
+      "title": "Replace",
+      "description": "Replaces column values based on the content of an object",
+      "path": "DataFrame/BasicFunctions/replace",
+      "indev": false
+  },
+  {
+    "category": "Function",
+    "subcategory": "Insert",
+    "title": "Insert",
+    "description": "Inserts an object at the beginning of the DataFrame",
+    "path": "DataFrame/BasicFunctions/insert",
+    "indev": false
+  },
+  {
+    "category": "Function",
+    "subcategory": "Sort",
+    "title": "Sort",
+    "description": "Sort values based on a single or multiple columns",
+    "path": "DataFrame/BasicFunctions/SortValues",
+    "indev": false
+  },
+  {
+    "category": "Function",
+    "subcategory": "Slice",
+    "title": "Slice",
+    "description": "Slices DataFrame and returns the data as a DataFrame",
+    "path": "DataFrame/BasicFunctions/Slice",
+    "indev": false
+  },
+  {
+    "category": "Function",
+    "subcategory": "Transpose",
+    "title": "Transpose",
+    "description": "DataFrame Transpose",
+    "path": "DataFrame/BasicFunctions/Transpose",
+    "indev": false
+  },
+  {
+    "category": "Function",
+    "subcategory": "Sort Index",
+    "title": "Sort Index",
+    "description": "Sorts the DataFrame based on an array of index values",
+    "path": "DataFrame/BasicFunctions/SortIndex",
+    "indev": true
+  }
+]

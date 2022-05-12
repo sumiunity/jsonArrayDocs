@@ -18,6 +18,7 @@ export default function StackedScatter( props ){
   // retrieve the unique values for column you wish to stack
   const stacked_id = json_array.unique(stack_col)
 
+  console.log( pivot)
   console.log( stacked_id)
   return(
     <pivot.react.echarts.Bar

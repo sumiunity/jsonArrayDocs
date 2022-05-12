@@ -1,0 +1,17 @@
+[
+    {
+        "category": "Waterfall Chart",
+        "subcategory": "Basic",
+        "title": "Basic Waterfall Chart",
+        "path": "Echarts/Waterfall/Basic",
+        "indev": true
+    } ,
+    {
+        "category": "Waterfall Chart",
+        "subcategory": "Completion",
+        "title": "Waterfall Chart colored by the percent complete",
+        "description": "show the amount each stage in the waterfall is completed",
+        "path": "Echarts/Waterfall/Completion",
+        "indev": false
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+      "category": "To DataFrame",
+      "subcategory": "merge",
+      "title": "merge",
+      "description": "Merge to Series to create a DataFrame with columns based on the Series Name",
+      "path": "Series/toDataFrame/merge",
+      "indev": true
+  }
+]

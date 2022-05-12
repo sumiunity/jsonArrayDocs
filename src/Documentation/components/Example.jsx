@@ -35,6 +35,7 @@ export default function Example( props ){
   }
 
   console.log( 'what are the components', Component)
+  console.log( `Documentation/${dir}/${props.example.path}` )
 
   return(
     <Segment.Group>

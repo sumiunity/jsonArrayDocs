@@ -1,0 +1,42 @@
+[
+    {
+      "category": "datetime",
+      "subcategory": "Week",
+      "title": "Week",
+      "description": "Create standard week attributes",
+      "path": "DataFrame/datetime/week",
+      "indev": false
+  },
+  {
+    "category": "datetime",
+    "subcategory": "Date",
+    "title": "Date",
+    "description": "Extracts all date parameters from the provided date column",
+    "path": "DataFrame/datetime/date",
+    "indev": false
+  },
+  {
+    "category": "datetime",
+    "subcategory": "Fill Weeks",
+    "title": "Fill Weeks",
+    "description": "Replaces missing weeks by adding blank entries",
+    "path": "DataFrame/datetime/fillWeek",
+    "indev": false
+  },
+  {
+    "category": "datetime",
+    "subcategory": "Fill Days",
+    "title": "Fill Days",
+    "description": "Replaces missing days by adding blank entries",
+    "path": "DataFrame/datetime/fillDays",
+    "indev": true
+  },
+  {
+    "category": "datetime",
+    "subcategory": "Arithmetic",
+    "title": "Arithmetic",
+    "description": "Perform basic Add/Sub operations to a datetime column",
+    "path": "DataFrame/datetime/arithmetic",
+    "indev": false
+  }
+]

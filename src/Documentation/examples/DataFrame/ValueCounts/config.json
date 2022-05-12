@@ -1,0 +1,10 @@
+[
+    {
+      "category": "Value Counts",
+      "subcategory": "Multiple Columns",
+      "title": "Value Counts",
+      "description": "Generates paretos given multiple columns",
+      "path": "DataFrame/ValueCounts/multipleColumns",
+      "indev": true
+    }
+]

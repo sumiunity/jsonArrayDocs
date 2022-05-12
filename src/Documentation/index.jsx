@@ -12,7 +12,7 @@ single component and avoids multiple pages/routes
 
 import React, {useState} from 'react';
 
-import {Grid, Segment, Menu, Button, Container} from 'semantic-ui-react'
+import {Grid, Segment, Menu, Container} from 'semantic-ui-react'
 
 import jsonArray from './components/jsonArray'
 import Example from './components/Example'
@@ -25,13 +25,14 @@ export default function Examples( props ){
 
   const [category, setCategory] = useState()
   const [subcategory, setSubCategory] = useState()
-  const [docType, setDocType] = useState('table')
+  const [docType, setDocType] = useState('echarts')
 
   var config = props.config
   if( config === undefined ){
     config = getConfig(docType)
   }
 
+  console.log( 'cinfug...', config )
 
   config = new jsonArray(config)
 
@@ -154,6 +155,20 @@ function Navbar(props){
               callback('table')
             }}>
             Table
+          </Menu.Item>
+          <Menu.Item as='a'
+            active={props.docType==='dataframe'}
+            onClick = {(value) => {
+              callback('dataframe')
+            }}>
+            DataFrame
+          </Menu.Item>
+          <Menu.Item as='a'
+            active={props.docType==='series'}
+            onClick = {(value) => {
+              callback('series')
+            }}>
+            Series
           </Menu.Item>
         </Container>
       </Menu>

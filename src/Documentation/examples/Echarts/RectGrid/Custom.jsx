@@ -1,7 +1,6 @@
 import React from "react";
 
 import jsonArray from "jsonArray";
-import getData from 'Documentation/examples/getData'
 
 
 export default function SimpleScatter( props ){

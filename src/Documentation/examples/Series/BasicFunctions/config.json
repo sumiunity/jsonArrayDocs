@@ -1,0 +1,74 @@
+[
+    {
+      "category": "Basic Functions",
+      "subcategory": "Index and Values",
+      "title": "Index and Values",
+      "description": "Extract the index and values from the Series",
+      "path": "Series/BasicFunctions/IndexAndValues",
+      "indev": false
+  },
+  {
+    "category": "Basic Functions",
+    "subcategory": "Value Counts (pareto)",
+    "title": "Value Counts (pareto)",
+    "description": "Generates a pareto of unique occurances of each value in the Series",
+    "path": "Series/BasicFunctions/ValueCounts",
+    "indev": false
+    },
+    {
+      "category": "Basic Functions",
+      "subcategory": "Arithmetic",
+      "title": "Arithmetic",
+      "description": "Basic Arithmetic function performed on a Series",
+      "path": "Series/BasicFunctions/arithmetic",
+      "indev": true
+      },
+    {
+      "category": "Basic Functions",
+      "subcategory": "Sort",
+      "title": "Sort",
+      "description": "Sorts the values in ascending and descending order",
+      "path": "Series/BasicFunctions/SortValues",
+      "indev": false
+    },
+    {
+      "category": "Basic Functions",
+      "subcategory": "Unique",
+      "title": "Unique",
+      "description": "Returns the unique values in the Series",
+      "path": "Series/BasicFunctions/Unique",
+      "indev": false
+    },
+    {
+      "category": "Basic Functions",
+      "subcategory": "Insert",
+      "title": "Insert",
+      "description": "Insert index or values",
+      "path": "Series/BasicFunctions/insert",
+      "indev": false
+    },
+    {
+      "category": "Basic Functions",
+      "subcategory": "Replace",
+      "title": "Replace",
+      "description": "Replace index or values using an object as a lookup table",
+      "path": "Series/BasicFunctions/replace",
+      "indev": false
+    },
+    {
+      "category": "Basic Functions",
+      "subcategory": "To Object",
+      "title": "To Object",
+      "description": "Converts the Series to an Object",
+      "path": "Series/BasicFunctions/toObject",
+      "indev": false
+    },
+    {
+      "category": "Basic Functions",
+      "subcategory": "Duplicates",
+      "title": "Duplicates",
+      "description": "Routines for managing the rows with duplicate index",
+      "path": "Series/BasicFunctions/duplicates",
+      "indev": false
+    }
+]

@@ -3,13 +3,15 @@
         "category": "Bar Chart",
         "subcategory": "Bar",
         "title": "Simple Bar Chart",
-        "path": "Echarts/Bar/Simple"
+        "path": "Echarts/Bar/Simple",
+        "indev": false
     },
     {
         "category": "Bar Chart",
         "subcategory": "Stacked",
         "title": "Stacked Bar Chart",
-        "path": "Echarts/Bar/Stacked"
+        "path": "Echarts/Bar/Stacked",
+        "indev": false
     },
     {
         "category": "Bar Chart",
@@ -17,5 +19,29 @@
         "title": "Pareto Chart",
         "path": "Echarts/Bar/Pareto",
         "indev": false
-    }  
+    },
+    {
+        "category": "Bar Chart",
+        "subcategory": "Stacked Series",
+        "title": "Stacked Series",
+        "description": "multiple stacked bar charts rendered next tp each other",
+        "path": "Echarts/Bar/StackedSeries",
+        "indev": true
+    },
+    {
+        "category": "Bar Chart",
+        "subcategory": "Vertical Series",
+        "title": "Vertical Series",
+        "description": "multiple bar charts rendered next tp each other",
+        "path": "Echarts/Bar/VerticalSeries",
+        "indev": false
+    },
+    {
+        "category": "Bar Chart",
+        "subcategory": "Horizontal Series",
+        "title": "Horizontal Series",
+        "description": "multiple bar charts rendered horizontally",
+        "path": "Echarts/Bar/HorizontalSeries",
+        "indev": false
+    }
 ]
